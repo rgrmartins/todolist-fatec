@@ -5,7 +5,9 @@
   "dependencies": {
     "history": "^5.0.1",
     "react": "^17.0.2",
+    "react-data-table-component": "^7.3.1",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.16.2",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
