@@ -12,9 +12,15 @@ export const Error = styled.span`
   padding: 8px;
 `
 
+export const Button = styled.button`
+  background: none;
+  border: none;
+  color: #6b6b04;
+`
+
 export const Content = styled.div`
   display:  flex;
-  margin: 15px 0 0 15px;
+  margin: 15px;
   flex-direction: column;
   width: 1000%;
   max-width: 1200px;
@@ -84,5 +90,17 @@ export const FormDataGrid = styled.div`
   span {
     margin: 15px;
     color: #002a5c;
+  }
+`
+export const TotalTarefas = styled.div`
+  margin-top: 30px;
+  background: #787276;
+  padding: 15px;
+  border-radius: 10px;
+  align-self: center;
+
+  p {
+    color: #fff;
+    font-size: 16px;
   }
 `
